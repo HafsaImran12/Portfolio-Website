@@ -1,31 +1,113 @@
-:root{
-    --primary: #5E3BEE;
-    --text-color: #1C1E53;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-color: #5e3bee;
+  --secondary-color: #f5fcff;
+  --text-color: #1c1e53;
+}
+
+@font-face {
+  font-family: "roboto";
+  src: url(./fonts/RobotoCondensed-VariableFont_wght.ttf);
+}
+
+body {
+  font-family: "roboto";
 }
 
 /* navbar */
 
-.btn-purple{
+.btn-purple {
+  border: 1.33px solid var(--primary-color);
+  color: var(--primary-color);
+  border-radius: 5.33px;
+}
+
+.btn-media {
+  display: none;
+}
+
+#link-purple a {
+  color: var(--primary-color) !important;
+}
+
+.h-nav {
+  padding: 1rem 5.333rem;
+  background-color: white !important;
+}
+
+.h-ul {
+  justify-content: space-around;
+}
+
+.h-ul li a {
+  color: var(--text-color);
+  font-size: 18px;
+}
+
+.herosec {
+  justify-content: space-between;
+  padding: 133.33px 85.33px !important;
+  width: 100% !important;
+  background-color: var(--secondary-color);
+}
+
+.name {
+  font-weight: 600 !important;
+  font-size: 21.33px;
+  font-style: bold;
+  padding-bottom: 0px !important;
+}
+
+.herosec h1 {
+  font-weight: 700;
+  font-size: 64.67px;
+}
+
+.herosec p {
+  font-size: 18.33px;
+  font-weight: 400;
+  padding-bottom: 21.33px;
+}
+
+.herosec button {
+  background-color: var(--primary-color);
+  border-radius: 5.33px;
+}
+
+.heroimg {
+  width: 45%;
+}
+
+.heroimg img {
+  width: 100%;
+}
+
+.herocontent {
+  width: 45%;
+}
+
+.product-clr {
+  color: var(--primary-color);
+}
+
+@media only screen and (max-width: 991px) {
+  .h-nav {
+    padding: 1rem !important;
+  }
+  body {
+    background-color: red;
+  }
+  .btn-purple {
+    display: none !important;
+  }
+  .btn-media {
+    display: block;
     border: 1.33px solid var(--primary);
     color: var(--primary);
     border-radius: 5.33px;
-}
-
-#link-purple a{
-    color: var(--primary) !important;
-}
-
-.h-nav{
-    padding: 1rem 5.333rem;
-    background-color: white !important;
-}
-
-.h-ul{
-    justify-content: space-around;
-    
-}
-
-.h-ul li a{
-    color: var(--text-color);
-    font-size: 18px;
+  }
 }
