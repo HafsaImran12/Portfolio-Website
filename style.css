@@ -1,0 +1,31 @@
+:root{
+    --primary: #5E3BEE;
+    --text-color: #1C1E53;
+}
+
+/* navbar */
+
+.btn-purple{
+    border: 1.33px solid var(--primary);
+    color: var(--primary);
+    border-radius: 5.33px;
+}
+
+#link-purple a{
+    color: var(--primary) !important;
+}
+
+.h-nav{
+    padding: 1rem 5.333rem;
+    background-color: white !important;
+}
+
+.h-ul{
+    justify-content: space-around;
+    
+}
+
+.h-ul li a{
+    color: var(--text-color);
+    font-size: 18px;
+}
