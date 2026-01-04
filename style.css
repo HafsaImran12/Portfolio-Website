@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
@@ -20,20 +21,6 @@ body {
 
 /* navbar */
 
-.btn-purple {
-  border: 1.33px solid var(--primary-color);
-  color: var(--primary-color);
-  border-radius: 5.33px;
-}
-
-.btn-media {
-  display: none;
-}
-
-#link-purple a {
-  color: var(--primary-color) !important;
-}
-
 .h-nav {
   padding: 1rem 5.333rem;
   background-color: white !important;
@@ -48,66 +35,63 @@ body {
   font-size: 18px;
 }
 
-.herosec {
-  justify-content: space-between;
-  padding: 133.33px 85.33px !important;
-  width: 100% !important;
-  background-color: var(--secondary-color);
-}
-
-.name {
-  font-weight: 600 !important;
-  font-size: 21.33px;
-  font-style: bold;
-  padding-bottom: 0px !important;
-}
-
-.herosec h1 {
-  font-weight: 700;
-  font-size: 64.67px;
-}
-
-.herosec p {
-  font-size: 18.33px;
-  font-weight: 400;
-  padding-bottom: 21.33px;
-}
-
-.herosec button {
-  background-color: var(--primary-color);
+.btn-purple {
+  border: 1.33px solid var(--primary-color);
+  color: var(--primary-color);
   border-radius: 5.33px;
 }
 
-.heroimg {
-  width: 45%;
+.btn-media {
+  display: none;
 }
 
-.heroimg img {
-  width: 100%;
+#link-purple a {
+  color: var(--primary-color) !important;
 }
 
-.herocontent {
-  width: 45%;
-}
+/* Navbar End */
+/* Hero Sec start */
 
-.product-clr {
+.herosec{
+  padding: 133.33px 85.33px;
+  background-color: var(--secondary-color);
+}
+.herosec span{
   color: var(--primary-color);
 }
 
+#name{
+  font-size: 21.33px;
+  font-weight: 600;
+}
+
+.herosec .lorem{
+  padding-bottom: 21.33px;
+}
+
+
+/* Hero Sec end */
+
+
 @media only screen and (max-width: 991px) {
-  .h-nav {
-    padding: 1rem !important;
-  }
-  body {
+  body{
     background-color: red;
+  }
+  .h-nav {
+    padding: 0.5rem 1rem !important;
   }
   .btn-purple {
     display: none !important;
   }
   .btn-media {
     display: block;
-    border: 1.33px solid var(--primary);
-    color: var(--primary);
+    border: 1.33px solid var(--primary-color);
+    color: var(--primary-color);
     border-radius: 5.33px;
+  }
+
+  .herosec{
+    padding: 3rem !important;
+    background-color: var(--secondary-color);
   }
 }
