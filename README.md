@@ -1,40 +1,44 @@
-# Practice Portfolio Website
+# 💼 Practice Portfolio Website
 
-This is a **practice portfolio website** built using **HTML, CSS, and Bootstrap**. It is designed to showcase web development skills and practice responsive design.
+A simple **portfolio website** built with **HTML, CSS, and Bootstrap** for **practice purposes**.  
+It showcases **skills, projects, and testimonials** in a clean and modern layout.
 
-## Table of Contents
+---
 
-- [About](#about)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
+## 👋 About
+A brief introduction section created for practice and learning.
 
-## About
+---
 
-This portfolio website is a personal practice project to demonstrate:
+## 💻 Skills
+Highlights of web development skills included in this practice project:
+- HTML5
+- CSS3
+- Bootstrap 5
+- Responsive Design
 
-- Responsive design with **Bootstrap**
-- Clean and modern layout
-- Sections like **About Me**, **Portfolio**, and **Contact**
-- Ability to organize and display projects
+---
 
-## Features
+## 📝 Testimonials
+Sample feedback section to practice layout and design.
 
-- Fully **responsive** design for all screen sizes
-- **Navigation bar** to scroll between sections
-- **Portfolio section** to display projects
-- **Contact section** (static)
-- Built entirely with **HTML, CSS, and Bootstrap**
+---
 
-## Technologies Used
+## 📂 Projects
+Practice projects showcased with descriptions and design layout.
 
-- **HTML5**  
-- **CSS3**  
-- **Bootstrap 5**
+---
 
-## Author
+## 🚀 Live Demo
+https://hafsaimran12.github.io/Portfolio-Website/
 
-- **Hafsa Imran**
+---
+
+## 💡 Acknowledgement
+This website is created for **practice and learning purposes**.
+
+---
+
+### 👩‍💻 Author
+**Hafsa Imran**  
+Frontend Developer (Learning Phase)
