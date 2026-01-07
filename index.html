@@ -5,10 +5,16 @@
     <title>Portfolio Website</title>
     <link rel="stylesheet" href="bootstrap.css" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <!-- Navbar start -->
-
     <nav class="navbar navbar-expand-lg bg-body-tertiary h-nav">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"
@@ -28,16 +34,18 @@
         <div class="collapse navbar-collapse h-ul" id="navbarSupportedContent">
           <ul class="navbar-nav mb-2 mb-lg-0">
             <li class="nav-item" id="link-purple">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Portfolio</a>
+              <a class="nav-link" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About me</a>
+              <a class="nav-link" href="#about me">About me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Testiomonials</a>
+              <a class="nav-link" href="#Testiomonials">Testiomonials</a>
             </li>
           </ul>
           <button class="btn btn-media" type="button">Contact Me</button>
@@ -45,11 +53,10 @@
         <button class="btn btn-purple" type="button">Contact Me</button>
       </div>
     </nav>
-
     <!-- Navbar end -->
 
     <!-- Hero Sec start -->
-    <div class="herosec">
+    <div class="herosec" id="home">
       <div class="row flex-lg-row-reverse align-items-center g-5 py-5 herosec">
         <div class="col-10 col-sm-8 col-lg-6 heroimg">
           <img
@@ -80,9 +87,8 @@
     </div>
     <!-- Hero Sec end -->
 
-    <!-- My Skills start -->
-
-    <div class="container skills">
+    <!-- Skills Sec start -->
+    <div class="container-fluid skills">
       <!-- row 1 -->
       <div class="row"><h2 class="text-one">My Skills</h2></div>
       <!-- row 2 -->
@@ -91,68 +97,242 @@
       <div class="row g-4">
         <!-- col 1 -->
         <div class="col-12 col-md-6 col-lg-3">
-          <div class="cards">
+          <div class="skill-cards">
             <div class="cardimg">
-            <img src="./images/card 1.png" alt="Directions" />
-          </div>
-          <div class="cardcontent">
-            <h2>Strategy & Direction</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse varius enim in eros elementum tristique.
-            </p>
-          </div>
+              <img src="./images/card 1.png" alt="Directions" />
+            </div>
+            <div class="cardcontent">
+              <h2>Strategy & Direction</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros elementum tristique.
+              </p>
+            </div>
           </div>
         </div>
         <!-- col 2 -->
         <div class="col-12 col-md-6 col-lg-3">
-          <div class="cards">
+          <div class="skill-cards">
             <div class="cardimg">
-            <img src="./images/card 2.png" alt="logo" />
-          </div>
-          <div class="cardcontent">
-            <h2>Branding & Logo</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse varius enim in eros elementum tristique.
-            </p>
-          </div>
+              <img src="./images/card 2.png" alt="logo" />
+            </div>
+            <div class="cardcontent">
+              <h2>Branding & Logo</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros elementum tristique.
+              </p>
+            </div>
           </div>
         </div>
         <!-- col 3 -->
         <div class="col-12 col-md-6 col-lg-3">
-        <div class="cards">
+          <div class="skill-cards">
             <div class="cardimg">
-            <img src="./images/card 3.png" alt="Design" />
+              <img src="./images/card 3.png" alt="Design" />
+            </div>
+            <div class="cardcontent">
+              <h2>UI & UX Design</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros elementum tristique.
+              </p>
+            </div>
           </div>
-          <div class="cardcontent">
-            <h2>UI & UX Design</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse varius enim in eros elementum tristique.
-            </p>
-          </div>
-        </div>
         </div>
         <!-- col 4 -->
         <div class="col-12 col-md-6 col-lg-3">
-         <div class="cards">
-           <div class="cardimg">
-            <img src="./images/card 4.png" alt="Development" />
+          <div class="skill-cards">
+            <div class="cardimg">
+              <img src="./images/card 4.png" alt="Development" />
+            </div>
+            <div class="cardcontent">
+              <h2>Webflow Development</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros elementum tristique.
+              </p>
+            </div>
           </div>
-          <div class="cardcontent">
-            <h2>Webflow Development</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse varius enim in eros elementum tristique.
-            </p>
-          </div>
-         </div>
         </div>
       </div>
     </div>
+    <!-- Skills Sec end -->
 
-    <!-- My Skills end -->
+    <!-- About Sec start -->
+    <div class="aboutsec" id="portfolio">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5 about">
+        <div class="col-lg-6 aboutcontent">
+          <p><strong>About</strong></p>
+          <h2 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+            About Me
+          </h2>
+          <p class="lead">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+            varius <br />
+            faucibus massa sollicitudin amet augue. Nibh metus a semper purus
+            mauris <br />
+            duis. Lorem eu neque, tristique quis duis. Nibh scelerisque ac
+            adipiscing velit <br />
+            non nulla in amet pellentesque.<br /><br />Sit turpis pretium eget
+            maecenas. Vestibulum dolor mattis consectetur eget <br />
+            commodo vitae. Amet pellentesque sit pulvinar lorem mi a, euismod
+            risus r.
+          </p>
+        </div>
+        <div class="col-10 col-sm-8 col-lg-6 aboutimg">
+          <img
+            src="./images/About Me.png"
+            class="d-block mx-lg-auto img-fluid"
+            alt="Me"
+            width="700"
+            height="500"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- About Sec end -->
+
+    <!-- Projects Sec start -->
+    <h2 class="my-projects">My Projects</h2>
+    <div class="projects">
+      <!-- card 1 -->
+      <div class="card">
+        <img
+          src="./images/project 1.png"
+          class="card-img-top"
+          alt="Project 1"
+        />
+        <div class="card-body">
+          <h5>Ahuse</h5>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            varius enim in eros.
+          </p>
+          <a href="#"
+            >View In Dribbble <i class="fa-solid fa-arrow-right arrow"></i
+          ></a>
+        </div>
+      </div>
+
+      <!-- card 2 -->
+      <div class="card">
+        <img
+          src="./images/project 2.png"
+          class="card-img-top"
+          alt="Project 2"
+        />
+        <div class="card-body">
+          <h5>App Dashboard</h5>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            varius enim in eros.
+          </p>
+          <a href="#"
+            >View In Dribbble <i class="fa-solid fa-arrow-right arrow"></i
+          ></a>
+        </div>
+      </div>
+
+      <!-- card 3 -->
+      <div class="card">
+        <img
+          src="./images/project 3.png"
+          class="card-img-top"
+          alt="Project 1"
+        />
+        <div class="card-body">
+          <h5>Easy Rent</h5>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            varius enim in eros.
+          </p>
+          <a href="#"
+            >View In Dribbble <i class="fa-solid fa-arrow-right arrow"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+    <!-- Projects Sec end -->
+
+    <!-- Tesimonials -->
+    <div class="testimonial">
+      <div class="comtext">
+        <p class="text-one">Clients Feedback</p>
+        <h2 class="text-two">Customer testimonials</h2>
+      </div>
+      <div class="container-fluid com-sec">
+        <div class="row tes-row">
+          <!-- col 1 -->
+          <div class="col col-md-3 col-sm-1 column">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <p>
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim in eros elementum tristique. Duis cursus,
+              mi quis viverra.
+            </p>
+            <div class="avt">
+              <div class="avt-img">
+                <img src="./images/avatar 1.png" alt="Avatar 1" />
+              </div>
+              <div class="avt-cont">
+                <h5>Dianne Russell</h5>
+                <p>Starbuks</p>
+              </div>
+            </div>
+          </div>
+          <!-- col 2 -->
+          <div class="col col-md-3 col-sm-1 column">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <p>
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim in eros elementum tristique. Duis cursus,
+              mi quis viverra.
+            </p>
+            <div class="avt">
+              <div class="avt-img">
+                <img src="./images/avatar 2.png" alt="Avatar 2" />
+              </div>
+              <div class="avt-cont">
+                <h5>Kristin Watson</h5>
+                <p>Louis Vuitton</p>
+              </div>
+            </div>
+          </div>
+          <!-- col 3 -->
+          <div class="col col-md-3 col-sm-1 column">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <p>
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim in eros elementum tristique. Duis cursus,
+              mi quis viverra.
+            </p>
+            <div class="avt">
+              <div class="avt-img">
+                <img src="./images/avatar 3.png" alt="Avatar 3" />
+              </div>
+              <div class="avt-cont">
+                <h5>Kathryn Murphy</h5>
+                <p>McDonald's</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script src="bootstrap.js"></script>
   </body>
