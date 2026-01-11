@@ -35,7 +35,7 @@ body {
   background-color: var(--primary-color);
   color: white;
 }
-
+/* hero */
 .hero{
   background-color: var(--secondary-color);
 }
@@ -53,8 +53,8 @@ body {
   color: var(--primary-color);
   border: 1px solid var(--primary-color) !important;
 }
-
-.skills h2{
+/* skills */
+h2{
   font-size: 48px;
   border-bottom: none !important;
 }
@@ -78,4 +78,35 @@ body {
   transform: translateY(-5px);
   box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.08);
 }
+/* peoject */
+.project a{
+  text-decoration-color: var(--primary-color);
+  color: black;
+}
 
+.project i{
+  transform: rotate(45deg);
+  color: darkgreen;
+}
+/* testimonial */
+.test{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid var(--star-color);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.stars{
+  color: var(--star-color);
+}
+
+.test-img{
+  display: flex;
+  gap: 20px;
+}
+
+.test-img img{
+  border-radius: 50px;
+}
