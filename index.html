@@ -15,7 +15,7 @@
   </head>
   <body>
     <!-- Navbar start -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary h-nav">
+    <nav class="navbar navbar-expand-lg web-nav">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"
           ><img src="./images/Logo.svg" alt="Logo"
@@ -31,53 +31,51 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse h-ul" id="navbarSupportedContent">
+        <div
+          class="collapse navbar-collapse justify-content-around"
+          id="navbarSupportedContent"
+        >
           <ul class="navbar-nav mb-2 mb-lg-0">
-            <li class="nav-item" id="link-purple">
-              <a class="nav-link active" aria-current="page" href="#home"
-                >Home</a
-              >
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#portfolio">Portfolio</a>
+              <a class="nav-link" href="#">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about me">About me</a>
+              <a class="nav-link" href="#">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#testimonial">Testiomonials</a>
+              <a class="nav-link" href="#">Testimonials</a>
             </li>
           </ul>
-          <button class="btn btn-media" type="button">
-            <a href="#contact">Contact Me</a>
+          <button class="btn btn-outline-success" type="submit">
+            Contact Me
           </button>
         </div>
-        <button class="btn btn-purple" type="button">
-          <a href="#contact">Contact Me</a>
-        </button>
       </div>
     </nav>
     <!-- Navbar end -->
 
-    <!-- Hero Sec start -->
-    <div class="herosec" id="home">
-      <div class="row flex-lg-row-reverse align-items-center g-5 py-5 herosec">
-        <div class="col-10 col-sm-8 col-lg-6 heroimg">
+    <!-- Hero Section start -->
+    <div class="container-fluid px-5 py-5 hero">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
           <img
             src="./images/Header.png"
             class="d-block mx-lg-auto img-fluid"
-            alt="Bootstrap Themes"
+            alt="Portfolio"
             width="700"
             height="500"
             loading="lazy"
           />
         </div>
-        <div class="col-lg-6 herocontent">
-          <p id="name">Hey, I am John</p>
+        <div class="col-lg-6">
+          <p>Hey, I am John</p>
           <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
-            I create <span>product design</span> and<br />brand experience
+            I create <span>product design</span> and brand experience
           </h1>
-          <p class="lead lorem">
+          <p class="lead">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             varius enim in eros elementum tristique.
           </p>
@@ -89,106 +87,96 @@
         </div>
       </div>
     </div>
-    <!-- Hero Sec end -->
+    <!-- Hero Section end -->
 
-    <!-- Skills Sec start -->
-    <div class="container-fluid skills">
-      <!-- row 1 -->
-      <div class="row"><h2 class="text-one">My Skills</h2></div>
-      <!-- row 2 -->
-      <div class="row"><h2 class="text-two">My Expertise</h2></div>
-      <!-- row 3 -->
-      <div class="row g-4">
-        <!-- col 1 -->
-        <div class="col-12 col-md-6 col-lg-3">
-          <div class="skill-cards">
-            <div class="cardimg">
-              <img src="./images/card 1.png" alt="Directions" />
+    <!-- Skills Section start -->
+    <div class="container-fluid px-5 py-5 skills" id="icon-grid">
+      <p>My Skills</p>
+      <h2 class="pb-2 border-bottom">My Expertise</h2>
+      <div
+        class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-5 py-5"
+      >
+        <!-- card 1 -->
+        <div class="col">
+          <div class="d-flex flex-column align-items-start p-3 exp">
+            <div class="image">
+              <img src="./images/card 1.png" alt="" />
             </div>
-            <div class="cardcontent">
-              <h2>Strategy & Direction</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse varius enim in eros elementum tristique.
-              </p>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
+                Featured title
+              </h3>
             </div>
+            <p>Paragraph of text beneath the heading to explain the heading.</p>
           </div>
         </div>
-        <!-- col 2 -->
-        <div class="col-12 col-md-6 col-lg-3">
-          <div class="skill-cards">
-            <div class="cardimg">
-              <img src="./images/card 2.png" alt="logo" />
+        <!-- card 2 -->
+        <div class="col">
+          <div class="d-flex flex-column align-items-start p-3 exp">
+            <div class="image">
+              <img src="./images/card 2.png" alt="" />
             </div>
-            <div class="cardcontent">
-              <h2>Branding & Logo</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse varius enim in eros elementum tristique.
-              </p>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
+                Featured title
+              </h3>
             </div>
+            <p>Paragraph of text beneath the heading to explain the heading.</p>
           </div>
         </div>
-        <!-- col 3 -->
-        <div class="col-12 col-md-6 col-lg-3">
-          <div class="skill-cards">
-            <div class="cardimg">
-              <img src="./images/card 3.png" alt="Design" />
+        <!-- card 3 -->
+        <div class="col">
+          <div class="col d-flex flex-column align-items-start p-3 exp">
+            <div class="image">
+              <img src="./images/card 3.png" alt="" />
             </div>
-            <div class="cardcontent">
-              <h2>UI & UX Design</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse varius enim in eros elementum tristique.
-              </p>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
+                Featured title
+              </h3>
             </div>
+            <p>Paragraph of text beneath the heading to explain the heading.</p>
           </div>
         </div>
-        <!-- col 4 -->
-        <div class="col-12 col-md-6 col-lg-3">
-          <div class="skill-cards">
-            <div class="cardimg">
-              <img src="./images/card 4.png" alt="Development" />
+        <!-- card 4 -->
+        <div class="col">
+          <div class="d-flex flex-column align-items-start p-3 exp">
+            <div class="image"><img src="./images/card 4.png" alt="" /></div>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
+                Featured title
+              </h3>
             </div>
-            <div class="cardcontent">
-              <h2>Webflow Development</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse varius enim in eros elementum tristique.
-              </p>
-            </div>
+            <p>Paragraph of text beneath the heading to explain the heading.</p>
           </div>
         </div>
       </div>
     </div>
-    <!-- Skills Sec end -->
+    <!-- Skills Section end -->
 
-    <!-- About Sec start -->
-    <div class="aboutsec" id="about me">
-      <div class="row flex-lg-row-reverse align-items-center g-5 py-5 about">
-        <div class="col-lg-6 aboutcontent">
-          <p><strong>About</strong></p>
+    <!-- About Section start -->
+    <div class="container-fluid px-5 py-5 about">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-lg-6">
+          <p>About</p>
           <h2 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
             About Me
           </h2>
           <p class="lead">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-            varius <br />
-            faucibus massa sollicitudin amet augue. Nibh metus a semper purus
-            mauris <br />
-            duis. Lorem eu neque, tristique quis duis. Nibh scelerisque ac
-            adipiscing velit <br />
-            non nulla in amet pellentesque.<br /><br />Sit turpis pretium eget
-            maecenas. Vestibulum dolor mattis consectetur eget <br />
-            commodo vitae. Amet pellentesque sit pulvinar lorem mi a, euismod
-            risus r.
+            varius faucibus massa sollicitudin amet augue. Nibh metus a semper
+            purus mauris duis. Lorem eu neque, tristique quis duis. Nibh
+            scelerisque ac adipiscing velit non nulla in amet pellentesque.<br>Sit
+            turpis pretium eget maecenas. Vestibulum dolor mattis consectetur
+            eget commodo vitae. Amet pellentesque sit pulvinar lorem mi a,
+            euismod risus r.
           </p>
         </div>
-        <div class="col-10 col-sm-8 col-lg-6 aboutimg">
+        <div class="col-10 col-sm-8 col-lg-6">
           <img
             src="./images/About Me.png"
             class="d-block mx-lg-auto img-fluid"
-            alt="Me"
+            alt="Portfolio"
             width="700"
             height="500"
             loading="lazy"
@@ -196,248 +184,7 @@
         </div>
       </div>
     </div>
-    <!-- About Sec end -->
-
-    <!-- Projects Sec start -->
-    <h2 class="my-projects">My Projects</h2>
-    <div class="projects">
-      <!-- card 1 -->
-      <div class="card">
-        <img
-          src="./images/project 1.png"
-          class="card-img-top"
-          alt="Project 1"
-        />
-        <div class="card-body">
-          <h5>Ahuse</h5>
-          <p class="card-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            varius enim in eros.
-          </p>
-          <a href="#"
-            >View In Dribbble <i class="fa-solid fa-arrow-right arrow"></i
-          ></a>
-        </div>
-      </div>
-
-      <!-- card 2 -->
-      <div class="card">
-        <img
-          src="./images/project 2.png"
-          class="card-img-top"
-          alt="Project 2"
-        />
-        <div class="card-body">
-          <h5>App Dashboard</h5>
-          <p class="card-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            varius enim in eros.
-          </p>
-          <a href="#"
-            >View In Dribbble <i class="fa-solid fa-arrow-right arrow"></i
-          ></a>
-        </div>
-      </div>
-
-      <!-- card 3 -->
-      <div class="card">
-        <img
-          src="./images/project 3.png"
-          class="card-img-top"
-          alt="Project 1"
-        />
-        <div class="card-body">
-          <h5>Easy Rent</h5>
-          <p class="card-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            varius enim in eros.
-          </p>
-          <a href="#"
-            >View In Dribbble <i class="fa-solid fa-arrow-right arrow"></i
-          ></a>
-        </div>
-      </div>
-    </div>
-    <!-- Projects Sec end -->
-
-    <!-- Tesimonials Sec start -->
-    <div class="testimonial" id="testimonial">
-      <div class="comtext">
-        <p class="text-one">Clients Feedback</p>
-        <h2 class="text-two">Customer testimonials</h2>
-      </div>
-      <div class="container-fluid com-sec">
-        <div class="row tes-row">
-          <!-- col 1 -->
-          <div class="col col-md-3 col-sm-1 column">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <p>
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse varius enim in eros elementum tristique. Duis cursus,
-              mi quis viverra.
-            </p>
-            <div class="avt">
-              <div class="avt-img">
-                <img src="./images/avatar 1.png" alt="Avatar 1" />
-              </div>
-              <div class="avt-cont">
-                <h5>Dianne Russell</h5>
-                <p>Starbuks</p>
-              </div>
-            </div>
-          </div>
-          <!-- col 2 -->
-          <div class="col col-md-3 col-sm-1 column">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <p>
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse varius enim in eros elementum tristique. Duis cursus,
-              mi quis viverra.
-            </p>
-            <div class="avt">
-              <div class="avt-img">
-                <img src="./images/avatar 2.png" alt="Avatar 2" />
-              </div>
-              <div class="avt-cont">
-                <h5>Kristin Watson</h5>
-                <p>Louis Vuitton</p>
-              </div>
-            </div>
-          </div>
-          <!-- col 3 -->
-          <div class="col col-md-3 col-sm-1 column">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <p>
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse varius enim in eros elementum tristique. Duis cursus,
-              mi quis viverra.
-            </p>
-            <div class="avt">
-              <div class="avt-img">
-                <img src="./images/avatar 3.png" alt="Avatar 3" />
-              </div>
-              <div class="avt-cont">
-                <h5>Kathryn Murphy</h5>
-                <p>McDonald's</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Tesimonials Sec end -->
-
-    <!-- Contact Sec end -->
-    <div class="container py-5 contact" id="contact">
-      <!-- row 1 -->
-      <div class="row flex-column py-5 text-center">
-        <div class="col"><p>Get In Touch</p></div>
-        <div class="col"><h2>Contact Me</h2></div>
-        <div class="col">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-      </div>
-      <!-- row 2 -->
-
-      <form class="row g-4">
-        <div class="col-md-6">
-          <label for="name" class="py-2">First name</label>
-          <input type="text" class="form-control" />
-        </div>
-        <div class="col-md-6">
-          <label for="name" class="py-2">Last name</label>
-          <input type="text" class="form-control" />
-        </div>
-        <div class="col-md-6">
-          <label for="email" class="py-2">Email</label>
-          <input type="email" class="form-control" />
-        </div>
-        <div class="col-md-6">
-          <label for="number" class="py-2">Phone number</label>
-          <input type="number" class="form-control" />
-        </div>
-        <div class="col-12">
-          <label for="option" class="py-2">Choose a topic</label>
-          <select class="form-select">
-            <option selected>Select one...</option>
-            <option>Web Design</option>
-            <option>Development</option>
-            <option>UI/UX</option>
-          </select>
-        </div>
-        <div class="col-12">
-          <label class="py-2">Message</label>
-          <textarea
-            class="form-control"
-            rows="5"
-            placeholder="Type your message..."
-          ></textarea>
-        </div>
-        <div class="col-12">
-          <input
-            class="form-check-input ckeckbox"
-            type="checkbox"
-            style="border: 1px solid black !important"
-          />
-          <label class="form-check-label px-2">I accpet the terms</label>
-        </div>
-
-        <div class="col-12 text-center">
-          <button type="submit" class="cont-btn px-5 py-2">Submit</button>
-        </div>
-      </form>
-    </div>
-    <!-- Contact Sec end -->
-
-    <!-- footer Sec start -->
-    <footer class="container-fluid p-5 web-footer">
-      <div class="row foot-sec">
-        <div class="col-md-3 col-sm-1 f-img">
-          <img src="./images/Logo.svg" alt="Logo" />
-        </div>
-        <div class="col-md-7 col-sm-1 f-links">
-          <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact Me</a></li>
-            <li><a href="#testiomonial">Testiomonials</a></li>
-          </ul>
-        </div>
-        <div class="col-md-2 col-sm-1 f-social">
-          <i class="fa-brands fa-facebook-f"></i>
-          <i class="fa-brands fa-instagram"></i>
-          <i class="fa-brands fa-twitter"></i>
-          <i class="fa-brands fa-linkedin"></i>
-        </div>
-      </div>
-      <hr>
-      <div class="row">
-        <div class="col-lg-4 col-sm-1">
-          <h6>&COPY; Made by Hafsa Imran</h6>
-        </div>
-        <div class="col-lg-8 col-sm-1 policies">
-          <ul>
-            <li>Privacy Policy</li>
-            <li>Terms of Service</li>
-            <li>Cookies Setting</li>
-          </ul>
-        </div>
-      </div>
-    </footer>
-    <!-- footer Sec end -->
+    <!-- About Section end -->
 
     <script src="bootstrap.js"></script>
   </body>
