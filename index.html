@@ -58,7 +58,7 @@
     <!-- Navbar end -->
 
     <!-- Hero Section start -->
-    <div class="container-fluid px-5 py-5 hero">
+    <div class="container-fluid p-lg-5 p-4 hero">
       <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
         <div class="col-12 col-sm-12 col-lg-6">
           <img
@@ -90,10 +90,10 @@
     <!-- Hero Section end -->
 
     <!-- Skills Section start -->
-    <div class="container-fluid px-5 py-5 skills" id="icon-grid">
+    <div class="container-fluid p-lg-5 p-4 skills" id="icon-grid">
       <p>My Skills</p>
-      <h2 class="pb-2 border-bottom">My Expertise</h2>
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-5 py-5">
+      <h2 class="pb-2">My Expertise</h2>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 py-4">
         <!-- card 1 -->
         <div class="col">
           <div class="d-flex flex-column align-items-start p-3 exp">
@@ -153,9 +153,21 @@
     <!-- Skills Section end -->
 
     <!-- About Section start -->
-    <div class="container-fluid px-5 py-5 about">
-      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-        <div class="col-lg-6">
+    <div class="container-fluid p-lg-5 p-4 about">
+      <div
+        class="row flex-lg-row-reverse justify-content-center align-items-center g-5 py-lg-5"
+      >
+        <div class="col-10 col-sm-12 col-lg-6">
+          <img
+            src="./images/About Me.png"
+            class="d-block mx-lg-auto img-fluid"
+            alt="Portfolio"
+            width="700"
+            height="500"
+            loading="lazy"
+          />
+        </div>
+        <div class="col-lg-6 order-sm-first">
           <p>About</p>
           <h2 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
             About Me
@@ -170,24 +182,15 @@
             euismod risus r.
           </p>
         </div>
-        <div class="col-10 col-sm-8 col-lg-6">
-          <img
-            src="./images/About Me.png"
-            class="d-block mx-lg-auto img-fluid"
-            alt="Portfolio"
-            width="700"
-            height="500"
-            loading="lazy"
-          />
-        </div>
       </div>
     </div>
     <!-- About Section end -->
 
     <!-- Project Section start -->
-    <div class="container project">
-      <div class="row">
-        <div class="col">
+    <div class="container project p-lg-5 p-4">
+      <div class="row row-cols-sm-12 g-4">
+        <h2>My Projects</h2>
+        <div class="col-md-4">
           <div class="card" style="width: 100%">
             <img src="./images/project 1.png" class="card-img-top" alt="..." />
             <div class="card-body">
@@ -202,7 +205,7 @@
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col-md-4">
           <div class="card" style="width: 100%">
             <img src="./images/project 2.png" class="card-img-top" alt="..." />
             <div class="card-body">
@@ -217,7 +220,7 @@
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col-md-4">
           <div class="card" style="width: 100%">
             <img src="./images/project 3.png" class="card-img-top" alt="..." />
             <div class="card-body">
@@ -237,7 +240,7 @@
     <!-- Project Section end -->
 
     <!-- Testimonials Section start -->
-    <div class="cotainer-fluid p-lg-5 p-sm-2">
+    <div class="cotainer-fluid p-lg-5 p-4">
       <div class="row">
         <div class="col">
           <p>Clients Feedback</p>
@@ -246,65 +249,126 @@
       </div>
       <div class="row g-4">
         <!-- col 1 -->
-        <div class="col-sm-12 col-md-4 test ">
-          <div class="stars">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-          </div>
-          <p>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Suspendisse varius enim in eros elementum tristique. Duis cursus, mi
-            quis viverra.
-          </p>
-          <div class="test-img">
-            <img src="./images/avatar 2.png" alt="">
-            <h5>Dianne Russell<br>Starbucks</h5>
+        <div class="col-sm-12 col-md-4">
+          <div class="test">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p>
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim in eros elementum tristique. Duis cursus,
+              mi quis viverra.
+            </p>
+            <div class="test-img">
+              <img src="./images/avatar 2.png" alt="" />
+              <h5>Dianne Russell<br />Starbucks</h5>
+            </div>
           </div>
         </div>
         <!-- col 2 -->
-        <div class="col-sm-12 col-md-4 test">
-          <div class="stars">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-          </div>
-          <p>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Suspendisse varius enim in eros elementum tristique. Duis cursus, mi
-            quis viverra.
-          </p>
-          <div class="test-img">
-            <img src="./images/avatar 3.png" alt="">
-            <h5>Dianne Russell<br>Starbucks</h5>
+        <div class="col-sm-12 col-md-4">
+          <div class="test">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p>
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim in eros elementum tristique. Duis cursus,
+              mi quis viverra.
+            </p>
+            <div class="test-img">
+              <img src="./images/avatar 3.png" alt="" />
+              <h5>Dianne Russell<br />Starbucks</h5>
+            </div>
           </div>
         </div>
         <!-- col 3 -->
-        <div class="col-sm-12 col-md-4 test">
-          <div class="stars">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-          </div>
-          <p>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Suspendisse varius enim in eros elementum tristique. Duis cursus, mi
-            quis viverra.
-          </p>
-          <div class="test-img">
-            <img src="./images/avatar 1.png" alt="">
-            <h5>Kathryn Murphy<br>McDonald's</h5>
+        <div class="col-sm-12 col-md-4">
+          <div class="test">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p>
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim in eros elementum tristique. Duis cursus,
+              mi quis viverra.
+            </p>
+            <div class="test-img">
+              <img src="./images/avatar 1.png" alt="" />
+              <h5>Kathryn Murphy<br />McDonald's</h5>
+            </div>
           </div>
         </div>
       </div>
     </div>
     <!-- Testimonials Section end -->
+
+    <!-- Contact Section start -->
+    <form class="row g-3">
+      <div class="col-md-6">
+        <label for="inputName4" class="form-label">First name</label>
+        <input type="email" class="form-control" id="inputEmail4" />
+      </div>
+      <div class="col-md-6">
+        <label for="input4" class="form-label">Password</label>
+        <input type="password" class="form-control" id="inputPassword4" />
+      </div>
+      <div class="col-12">
+        <label for="inputAddress" class="form-label">Address</label>
+        <input
+          type="text"
+          class="form-control"
+          id="inputAddress"
+          placeholder="1234 Main St"
+        />
+      </div>
+      <div class="col-12">
+        <label for="inputAddress2" class="form-label">Address 2</label>
+        <input
+          type="text"
+          class="form-control"
+          id="inputAddress2"
+          placeholder="Apartment, studio, or floor"
+        />
+      </div>
+      <div class="col-md-6">
+        <label for="inputCity" class="form-label">City</label>
+        <input type="text" class="form-control" id="inputCity" />
+      </div>
+      <div class="col-md-4">
+        <label for="inputState" class="form-label">State</label>
+        <select id="inputState" class="form-select">
+          <option selected>Choose...</option>
+          <option>...</option>
+        </select>
+      </div>
+      <div class="col-md-2">
+        <label for="inputZip" class="form-label">Zip</label>
+        <input type="text" class="form-control" id="inputZip" />
+      </div>
+      <div class="col-12">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck" />
+          <label class="form-check-label" for="gridCheck"> Check me out </label>
+        </div>
+      </div>
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary">Sign in</button>
+      </div>
+    </form>
+    <!-- Contact Section end -->
 
     <script src="bootstrap.js"></script>
   </body>
