@@ -22,50 +22,50 @@ body {
 
 /* navbar */
 
-.web-nav{
+.web-nav {
   box-shadow: 0px 5.33px 80px 0px rgba(0, 0, 0, 0.1);
 }
 
-.web-nav button{
+.web-nav button {
   border: 1px solid var(--primary-color);
   color: var(--primary-color);
 }
 
-.web-nav button:hover{
+.web-nav button:hover {
   background-color: var(--primary-color);
   color: white;
 }
 /* hero */
-.hero{
+.hero {
   background-color: var(--secondary-color);
 }
 
-.hero span{
+.hero span {
   color: var(--primary-color);
 }
 
-.hero button{
+.hero button {
   background-color: var(--primary-color);
 }
 
-.hero button:hover{
+.hero button:hover {
   background-color: white !important;
   color: var(--primary-color);
   border: 1px solid var(--primary-color) !important;
 }
 /* skills */
-h2{
+h2 {
   font-size: 48px;
 }
 
-.skills .image{
+.skills .image {
   background-color: white;
   box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
   padding: 5px;
 }
 
-.exp{
+.exp {
   background-color: var(--secondary-color);
   gap: 20px;
   border-radius: 5px;
@@ -78,17 +78,17 @@ h2{
   box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.08);
 }
 /* peoject */
-.project a{
+.project a {
   text-decoration-color: var(--primary-color);
   color: black;
 }
 
-.project i{
+.project i {
   transform: rotate(45deg);
   color: darkgreen;
 }
 /* testimonial */
-.test{
+.test {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -97,15 +97,33 @@ h2{
   padding: 20px;
 }
 
-.stars{
+.stars {
   color: var(--star-color);
 }
 
-.test-img{
+.test-img {
   display: flex;
   gap: 20px;
 }
 
-.test-img img{
+.test-img img {
   border-radius: 50px;
+}
+
+.select {
+  padding: 0;
+}
+
+.contact input, textarea, select {
+  border: 1px solid var(--primary-color) !important;
+}
+
+.contact button{
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.contact button:hover{
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
 }

@@ -316,59 +316,142 @@
     <!-- Testimonials Section end -->
 
     <!-- Contact Section start -->
-    <form class="row g-3">
-      <div class="col-md-6">
-        <label for="inputName4" class="form-label">First name</label>
-        <input type="email" class="form-control" id="inputEmail4" />
-      </div>
-      <div class="col-md-6">
-        <label for="input4" class="form-label">Password</label>
-        <input type="password" class="form-control" id="inputPassword4" />
-      </div>
-      <div class="col-12">
-        <label for="inputAddress" class="form-label">Address</label>
-        <input
-          type="text"
-          class="form-control"
-          id="inputAddress"
-          placeholder="1234 Main St"
-        />
-      </div>
-      <div class="col-12">
-        <label for="inputAddress2" class="form-label">Address 2</label>
-        <input
-          type="text"
-          class="form-control"
-          id="inputAddress2"
-          placeholder="Apartment, studio, or floor"
-        />
-      </div>
-      <div class="col-md-6">
-        <label for="inputCity" class="form-label">City</label>
-        <input type="text" class="form-control" id="inputCity" />
-      </div>
-      <div class="col-md-4">
-        <label for="inputState" class="form-label">State</label>
-        <select id="inputState" class="form-select">
-          <option selected>Choose...</option>
-          <option>...</option>
-        </select>
-      </div>
-      <div class="col-md-2">
-        <label for="inputZip" class="form-label">Zip</label>
-        <input type="text" class="form-control" id="inputZip" />
-      </div>
-      <div class="col-12">
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" id="gridCheck" />
-          <label class="form-check-label" for="gridCheck"> Check me out </label>
+    <div class="container contact p-lg-5 p-sm-4">
+      <p class="text-center py-sm-4">Get In Touch</p>
+      <h2 class="text-center">Contact us</h2>
+      <p class="text-center py-4">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </p>
+      <!-- Form -->
+      <form class="row g-3">
+        <!-- First Name -->
+        <div class="col-md-6">
+          <label for="inputName4" class="form-label">First name</label>
+          <input type="name" class="form-control" id="inputName4" />
         </div>
-      </div>
-      <div class="col-12">
-        <button type="submit" class="btn btn-primary">Sign in</button>
-      </div>
-    </form>
+        <!-- Last Name -->
+        <div class="col-md-6">
+          <label for="inputName4" class="form-label">Last Name</label>
+          <input type="name" class="form-control" id="inputName4" />
+        </div>
+        <!-- Email -->
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4" />
+        </div>
+        <!-- Password -->
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Password</label>
+          <input type="password" class="form-control" id="inputPassword4" />
+        </div>
+        <!-- Option -->
+        <div class="col-md-12">
+          <label for="inputState" class="form-check select"
+            >Choose a topic</label
+          >
+          <select id="inputState" class="form-select">
+            <option selected>Select one</option>
+            <option>...</option>
+          </select>
+        </div>
+        <!-- Message -->
+        <div data-mdb-input-init class="form-outline mb-4">
+          <label class="form-label" for="form4Example3">Message</label>
+          <textarea class="form-control" id="form4Example3" rows="4">
+Type your message...</textarea
+          >
+        </div>
+        <!-- Check box -->
+        <div class="col-12">
+          <div class="form-check">
+            <input
+              class="form-check-input border-black check"
+              type="checkbox"
+              id="gridCheck"
+            />
+            <label class="form-check-label" for="gridCheck"
+              >I accept the terms</label
+            >
+          </div>
+        </div>
+        <!-- Button -->
+        <div class="col-12 d-flex justify-content-center">
+          <button type="submit" class="btn px-5 py-2">Submit</button>
+        </div>
+      </form>
+    </div>
     <!-- Contact Section end -->
+
+    <!-- Footer Section start -->
+
+    <!-- First Part -->
+    <div class="container">
+      <footer
+        class="d-flex flex-wrap justify-content-sm-center align-items-center py-3 my-4"
+      >
+        <a
+          href="/"
+          class="col-md-4 col-sm-12 d-flex align-items-center justify-content-sm-center justify-content-md-start mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+          aria-label="Bootstrap"
+        >
+          <img src="./images/Logo.svg" alt="Logo" />
+        </a>
+        <ul class="nav col-md-4 col-sm-12 justify-content-center">
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">About me</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary"
+              >Testimonials</a
+            >
+          </li>
+        </ul>
+        <ul class="nav col-md-4 col-sm-12 justify-content-end list-unstyled d-flex">
+          <li class="ms-3">
+            <i class="fa-brands fa-facebook-f"></i>
+          </li>
+          <li class="ms-3">
+            <i class="fa-brands fa-instagram"></i>
+          </li>
+          <li class="ms-3">
+            <i class="fa-brands fa-twitter"></i>
+          </li>
+          <li class="ms-3">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </li>
+        </ul>
+      </footer>
+    </div>
+    <!-- Second Part -->
+    <div class="container">
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+      >
+        <strong class="col-md-6 mb-0 text-body-secondary">Made by Hafsa Imran</strong>
+        <ul class="nav col-md-6 justify-content-end">
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary text-decoration-underline">Privacy Policy</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary text-decoration-underline">Terms of Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary text-decoration-underline">Cookies Settings</a>
+          </li>
+          
+        </ul>
+      </footer>
+    </div>
+    <!-- Footer Section end -->
 
     <script src="bootstrap.js"></script>
   </body>
