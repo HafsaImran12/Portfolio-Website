@@ -38,6 +38,10 @@ body {
 .btn-media {
   display: none;
 }
+
+#home-purple{
+  color: var(--primary-color);
+}
 /* hero */
 .hero {
   background-color: var(--secondary-color);
