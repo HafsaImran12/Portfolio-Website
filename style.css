@@ -21,19 +21,22 @@ body {
 }
 
 /* navbar */
-
 .web-nav {
   box-shadow: 0px 5.33px 80px 0px rgba(0, 0, 0, 0.1);
 }
 
-.web-nav button {
+.web-nav .btn-purple {
   border: 1px solid var(--primary-color);
   color: var(--primary-color);
 }
 
-.web-nav button:hover {
+.web-nav .btn-purple:hover {
   background-color: var(--primary-color);
   color: white;
+}
+
+.btn-media {
+  display: none;
 }
 /* hero */
 .hero {
@@ -88,7 +91,7 @@ h2 {
   color: darkgreen;
 }
 
-.card:hover{
+.card:hover {
   transform: scale(1.05);
   box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
   transition: all 0.5s ease;
@@ -120,16 +123,33 @@ h2 {
   padding: 0;
 }
 
-.contact input, textarea, select {
+.contact input,
+textarea,
+select {
   border: 1px solid var(--primary-color) !important;
 }
 
-.contact button{
+.contact button {
   background-color: var(--primary-color);
   color: white;
 }
 
-.contact button:hover{
+.contact button:hover {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
+}
+
+@media screen and (max-width: 991px) {
+  .btn-media {
+    display: block;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+  }
+  .btn-media:hover {
+    background-color: var(--primary-color);
+    color: white;
+  }
+  .btn-purple {
+    display: none;
+  }
 }
